@@ -1,6 +1,6 @@
-streamlit
-opencv-python
-imutils
-Pillow
-scikit-image
-numpy
+opencv-python-headless==4.10.0.84
+imutils==0.5.3
+scikit-image==0.22.0
+numpy==1.26.4
+Pillow==10.4.0
+streamlit==1.39.0
