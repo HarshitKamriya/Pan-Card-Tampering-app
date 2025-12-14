@@ -41,11 +41,11 @@ if uploaded_file is not None:
     with col2:
         st.image(uploaded_img, caption="Uploaded Image")
 
-    col3, col4 = st.columns(2)
-    with col3:
-        st.image(diff, caption="Difference Image")
-    with col4:
-        st.image(thresh, caption="Threshold Image", clamp=True)
+    # col3, col4 = st.columns(2)
+    # with col3:
+    #     st.image(diff, caption="Difference Image")
+    # with col4:
+    #     st.image(thresh, caption="Threshold Image", clamp=True)
 
     # Decision logic (use thresh directly)
     non_zero_count = cv2.countNonZero(thresh)
